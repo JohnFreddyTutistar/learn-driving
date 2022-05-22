@@ -13,8 +13,8 @@
                   <th>ID</th>
                   <th>Nombre</th>
                   <th>Apellido</th>
-                  <th>Codigo</th>
-                  <th>Cedula</th>
+                  <th>Código</th>
+                  <th>Cédula</th>
                   <th>Correo</th>
                   <th>Contraseña</th>
                   <th>Acciones</th>
