@@ -17,7 +17,7 @@
                     <div class="box-content"><input type="password" name="" id="contraseña" v-model="contraseña" required></div>                
                 </div>
                 <div class="container-button">
-                    <router-link to="user" class="btn btn-danger">Entrar</router-link>
+                    <router-link to="user" class="btn btn-light btn-lg btn-block">Entrar</router-link>
                 </div>
                 </form>
             </div>
@@ -64,7 +64,7 @@ export default {
         margin-bottom: 10%;
         border-radius: 15px;
         width: 57%;
-        height: 400px;
+        height: 330px;
         opacity: 0.8;
     }
     .title-container{
@@ -75,6 +75,7 @@ export default {
         height: 90px;
         font-size: 1.5rem;
         font-family: 'Montserrat', sans-serif;
+        border-bottom: solid 1px rgb(224, 221, 221);
 
     }
     .container-child{
@@ -97,7 +98,8 @@ export default {
         width: 285px;
         font-family: 'Montserrat', sans-serif;
         border: none;
-        border-bottom: 3px solid #ff5858;
+        /* border-bottom: 3px solid #ff5858; */
+        border-bottom: 3px solid #fff;
     }
     .box-name{
         width: 240px;
@@ -107,40 +109,24 @@ export default {
     input{
         width: 100%;
         background-color: #696D7D;
-        height: 35px;
+        height: 28px;
         color: #fff;
         font-size: 18px;
         background: transparent;
         border: none;
     }
-    /* input[type=submit]{
-        font-family: 'Montserrat', sans-serif;
-        width: 135px;
-        height: 45px;
-        font-size: 20px;
-        cursor: pointer;
-        border-radius: 10px;
-        border: none;
-        background: #f74040;
-        color: #fff;
-        margin-top: 40px;
-    } */
     .container-button{
         display: flex;
-        margin-left: 38%;
         margin-top: 35px;
     } 
     .box-content:hover{
         background: linear-gradient(to bottom, transparent, #111);
         outline: none;
-        border-bottom: 3px solid #e01313;
+        /* border-bottom: 3px solid #e01313; */
+        border-bottom: 3px solid #999;
     }
     .container-child{
         padding: 25px;
     }
-        
-    /* input[type=submit]:active{
-        background: linear-gradient(to bottom, #ec1b1b, #c57d7d);
-    } */
 
 </style>

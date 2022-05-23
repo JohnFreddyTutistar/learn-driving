@@ -10,35 +10,35 @@
             <form v-on:submit.prevent="signup">
                 <div class="container-child">
                 <div class="box">
-                    <div class="box-name"><p>Nombre:</p></div>
+                    <div class="box-name">Nombre:</div>
                     <div class="box-content"><input type="text" name="" id="nombre" v-model="usuario.nombre" required></div>     
                 </div>
 
                 <div class="box" name="" id="">
-                    <div class="box-name"><p>Apellído:</p></div>
+                    <div class="box-name">Apellído:</div>
                     <div class="box-content"><input type="text" name="" id="apellido" v-model="usuario.apellido" required></div>                
                 </div>
 
                 <div class="box">
-                    <div class="box-name"><p>Código:</p></div>
+                    <div class="box-name">Código:</div>
                     <div class="box-content"><input type="text" name="" id="codigo" v-model="usuario.codigo" required></div>
                 </div>
 
                 <div class="box">
-                    <div class="box-name"><p>Cédula:</p></div>
+                    <div class="box-name">Cédula:</div>
                     <div class="box-content"><input type="number" name="" id="cedula" v-model="usuario.cedula" required></div>
                 </div>
 
                 <div class="box">
-                    <div class="box-name"><p>Correo electrónico:</p></div>
+                    <div class="box-name">Correo electrónico:</div>
                     <div class="box-content"><input type="email" name="" id="correo" v-model="usuario.correo" required></div>
                 </div>
                 <div class="box">
-                    <div class="box-name"><p>Contraseña:</p></div>
+                    <div class="box-name">Contraseña:</div>
                     <div class="box-content"><input type="password" name="" id="contraseña" v-model="usuario.contraseña" required></div>
                 </div>
                 <div class="container-button">
-                    <input type="submit" value="Registrarse">
+                    <router-link to="user" class="btn btn-light btn-lg btn-block">Registrarse</router-link>
                 </div>
             </div>
                 
@@ -103,11 +103,11 @@ export default {
         display: inline-block;
         background-color: #2A2D34;
         flex-wrap: wrap;
-        margin-top: 11%;
+        margin-top: 10%;
         margin-bottom: 10%;
         border-radius: 15px;
         width: 60%;
-        height: 550px;
+        height: 535px;
         opacity: 0.8;
     }
     .box{
@@ -128,7 +128,7 @@ export default {
         height: 90px;
         font-size: 1.5rem;
         font-family: 'Montserrat', sans-serif;
-
+        border-bottom: solid 1px rgb(224, 221, 221);
     }
     .box-content{
         margin-left: 55px;
@@ -137,17 +137,17 @@ export default {
         width: 285px;
         font-family: 'Montserrat', sans-serif;
         border: none;
-        border-bottom: 3px solid #ff5858;
+        border-bottom: 3px solid #fff;
     }
     .box-name{
         width: 240px;
         font-family: 'Montserrat', sans-serif;
-        
+        font-size: 18px;
     }
     input{
         width: 100%;
         background-color: #696D7D;
-        height: 35px;
+        height: 28px;
         color: #fff;
         font-size: 18px;
         background: transparent;
@@ -156,28 +156,15 @@ export default {
     .box-content:hover{
         background: linear-gradient(to bottom, transparent, #111);
         outline: none;
-        border-bottom: 3px solid #e01313;
+        border-bottom: 3px solid #999;
     }
     .container-child{
         padding: 25px;
     }
     .container-button{
-        display: flex;
-        margin-left: 38%;
-        height: 50px;
+        margin-top: 30px;
     }
-    input[type=submit]{
-        font-family: 'Montserrat', sans-serif;
-        width: 135px;
-        height: 45px;
-        font-size: 20px;
-        cursor: pointer;
-        border-radius: 10px;
-        border: none;
-        background: #f74040;
-        color: #fff;
-        margin-top: 40px;
-    }
+
     input[type=submit]:active{
         background: linear-gradient(to bottom, #ec1b1b, #c57d7d);
     }

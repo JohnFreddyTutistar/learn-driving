@@ -15,7 +15,7 @@
                     <p class="cost-value">$ 1'571.000</p>
                 </div>
                 <div class="buttoncar">
-                    <button>¡COMIENZA YA!</button>
+                    <button><router-link to="/payment">¡COMIENZA YA!</router-link></button>
                 </div>
             </div>
             <div class="infocontainer">
@@ -29,7 +29,7 @@
                     <p class="cost-value">$ 1'318.000</p>
                 </div>
                 <div>
-                    <button class="buttoncar">¡COMIENZA YA!</button>
+                    <button><router-link to="/payment">¡COMIENZA YA!</router-link></button>
                 </div>
             </div>
             <div class="infocontainer">
@@ -43,7 +43,7 @@
                     <p class="cost-value">$ 2'142.000</p>
                 </div>
                 <div>
-                    <button class="buttoncar">¡COMIENZA YA!</button>
+                    <button><router-link to="/payment">¡COMIENZA YA!</router-link></button>
                 </div>
             </div>
         </div>

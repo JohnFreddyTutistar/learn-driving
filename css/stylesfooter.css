@@ -2,7 +2,7 @@
     /*background-color: #598392;*/
     background: linear-gradient(rgba(255, 255, 255, 0.75),
     rgba(255, 255, 255, 0.75)),
-    url(../src/assets/fondo2.jpg);
+    url(../src/assets/fondo2.jpg); 
     background-attachment: fixed;
 }
 * {

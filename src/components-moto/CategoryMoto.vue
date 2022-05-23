@@ -12,10 +12,10 @@
                     <p class="text-category">Categoría: A1</p>
                 </div>
                 <div class="cost">
-                    <p class="cost-value">$ xxx xxx</p>
+                    <p class="cost-value">$ 950.000</p>
                 </div>
                 <div class="buttoncar">
-                    <button>¡Quiero este curso!</button>
+                    <button><router-link to="/payment">¡COMIENZA YA!</router-link></button>
                 </div>
             </div>
             <div class="infocontainer">
@@ -26,10 +26,10 @@
                     <p class="text-category">Categoría: A2</p>
                 </div>
                 <div class="cost">
-                    <p class="cost-value">$ xxx xxx</p>
+                    <p class="cost-value">$ 750.000</p>
                 </div>
                 <div>
-                    <button class="buttoncar">¡Quiero este curso!</button>
+                    <button><router-link to="/payment">¡COMIENZA YA!</router-link></button>
                 </div>
             </div>
         </div>

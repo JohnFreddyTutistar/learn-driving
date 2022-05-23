@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="father-container">
+    <div class="child-container">
         <div class="title-contact">
             <h1>Contactenos</h1>
         </div>
@@ -8,7 +8,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.930019191426!2d-77.2806993490795!3d1.2090638623426313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed49b0d465fef%3A0xf43b9b932967a617!2sUniversidad%20Cesmag!5e0!3m2!1ses-419!2sco!4v1651522011085!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-    <div class="container-top">
+    <!-- <div class="container-top">
         <div class="info">
             <h2><b>Sede A</b></h2>
             <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, saepe molestiae! Adipisci quisquam quos quas dolorem exercitationem eos natus reprehenderit modi, repellat labore sunt distinctio, commodi, nihil reiciendis laudantium quasi!</b></p>
@@ -21,7 +21,7 @@
             <h2>Sede C</h2>
             <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, saepe molestiae! Adipisci quisquam quos quas dolorem exercitationem eos natus reprehenderit modi, repellat labore sunt distinctio, commodi, nihil reiciendis laudantium quasi!</b></p>
         </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -32,11 +32,9 @@ export default {
 </script>
 
 <style scoped>
-.container{
-    background-color: #fff;
-}
-    .father-of-fathers{
-        height: 1000px; 
+    .container{
+        background-color: #fff; 
+        height: 650px;
     }
     .title-contact{
         color: #ff5858;
@@ -44,13 +42,14 @@ export default {
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         text-shadow: 1px 3px 3px #000;
+        text-align: center;
     }
     .map-ubication{
         display: flex;
-        width: 50%;
+        width: 88%;
         margin: auto;
         padding: auto;
-        border: solid 5px #ff5858;
+        border: solid 1px #000;
     }
     .container-top{
         display: flex;
