@@ -3,10 +3,10 @@
         <div class="menu">
             <nav class="menu-list">
                 <div class="menu-item"><i class="fa fa-home"></i><router-link to="/">Inicio</router-link></div>
-                <div class="menu-item"><i class="fa fa-user"></i><router-link to="/componentlogin">Iniciar sesión</router-link></div>
+                <div class="menu-item"><i class="fa fa-user"></i><router-link to="/login">Iniciar sesión</router-link></div>
                 <div class="menu-item"><i class="fa fa-address-card"></i><router-link to="/signup">Registrarse</router-link></div>
                 <drop-down-componet title="Categorías" :items="services" />
-                <div class="menu-item"><i class="fa fa-phone"></i><router-link to="/categorycontact">Contacto</router-link></div>
+                <div class="menu-item"><i class="fa fa-phone"></i><router-link to="/contact">Contacto</router-link></div>
             </nav>
         </div>
     </header>
@@ -26,11 +26,11 @@ export default {
             services: [
         {
             title: 'Vehiculo',
-            link: '/categorycar'
+            link: '/car'
         },
         {
             title: 'Motocicleta',
-            link: '/categorymoto'
+            link: '/moto'
         }
         
         ]

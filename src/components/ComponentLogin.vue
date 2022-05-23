@@ -60,8 +60,7 @@ export default {
         display: inline-block;
         background-color: #2A2D34;
         flex-wrap: wrap;
-        margin-top: 11%;
-        margin-bottom: 10%;
+        margin: 11% 0 10% 0; 
         border-radius: 15px;
         width: 57%;
         height: 330px;

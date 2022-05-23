@@ -33,7 +33,7 @@
 
                     <div class="btn-group" role="group" aria-label="">
                         <!-- <button type="button" class="btn btn-info">Editar</button> -->
-                        <router-link to="Edit" class="btn btn-info">Editar</router-link>
+                        <router-link to="edit" class="btn btn-info">Editar</router-link>
                         <router-link to="admin" v-on:click="borrarEmpleado(usuario.id)" class="btn btn-danger">Borrar</router-link>
                     </div>
 

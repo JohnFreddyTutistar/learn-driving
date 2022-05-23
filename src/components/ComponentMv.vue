@@ -40,13 +40,12 @@ export default {
 </script>
 
 <style scoped>
-
     .information-container{
         /*display: flex;*/
         width: 70%;
         margin: auto;
         background-color: #fff;
-        height: 2500px;
+        height: 2300px;
     }
     .title-two{
         display: flex;

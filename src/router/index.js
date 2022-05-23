@@ -16,22 +16,22 @@ const router = createRouter({
       component: () => import ('../views/SignUp.vue')
     },
     {
-      path: '/categorycar',
+      path: '/car',
       name: 'categorycar',
       component: () => import ('../views/CategoCar.vue')
     },
     {
-      path: '/categoryMoto',
+      path: '/Moto',
       name: 'categoryMoto',
       component: () => import ('../views/CategoMoto.vue')
     },
     {
-      path: '/categorycontact',
+      path: '/contact',
       name: 'categorycontact',
       component: () => import ('../views/CategoContact.vue')
     },
     {
-      path: '/componentlogin',
+      path: '/login',
       name: 'ComponentLogin',
       component: () => import ('../views/CompoLogin.vue')
     },

@@ -19,11 +19,11 @@
                
             </div>
             <div class="box-files">
-                Subir exámen médico: ⬇
+                Subir examen médico: ⬇
                 <input type="file" class="form-control" placeholder="Exámen médico">
             </div>
             <div class="upload-files">
-                <router-link to="user" class="btn btn-success">Subir</router-link>
+                <router-link to="user" class="btn btn-primary">Subir</router-link>
                 <router-link to="user" class="btn btn-danger">Cancelar</router-link>
             </div>
         </div>
@@ -58,6 +58,7 @@ export default {
     .img-container{
         margin: auto;
         text-align: center;
+        border-bottom: solid 1px #888;
     }
     img{
         width: 200px;
@@ -74,6 +75,9 @@ export default {
         margin: auto;
         margin-top: 15px;
         color: #000;
+        border: solid 1px #999;
+        border-radius: 10px;
+        padding-bottom: 10px;
     }
     .upload-files{
         margin-top: 15px;

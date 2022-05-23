@@ -24,19 +24,20 @@
                       <img src="https://cdn-icons-png.flaticon.com/512/55/55205.png" alt="" class="car">
                       <p class="text-box">Cursos</p>
                 </router-link>
-                </div> 
+              </div> 
               <div class="box">
                   
                 <router-link to="upload">
                       <img src="https://www.pngall.com/wp-content/uploads/2/Upload-PNG-Images.png" alt="" class="upload">
-                      <p class="text-box">Subir archivos</p>
+                      <p class="text-box">Subir archivos</p> 
+                      
                 </router-link>
               </div>
               <div class="box">
                   
                 <router-link to="edit">
                       <img src="http://cdn.onlinewebfonts.com/svg/img_130996.png" alt="" class="conf">
-                      <p class="text-box">Config</p>
+                      <p class="text-box">Config Usuario</p>
                 </router-link>
               </div>
               <!-- <div class="box">
@@ -56,21 +57,20 @@ export default {
 
 <style scoped>
     .father-container{
-        height: 800px;
-        /* display: flex; */
+        height: 700px;
         margin: auto;
         width: 900px;
         background-color: #fff;
         text-align: right;
     }
     .container{
-        /* display: flex; */
         margin: auto;
         padding-top: 60px;
     }
     .img-container{
         margin: auto;
         text-align: center;
+        border-bottom: solid 1px #888;
     }
     img{
         width: 200px;
@@ -84,19 +84,21 @@ export default {
     }
     .container-options{
         display: flex;
-        width: 200px;
+        width: 500px;
+        height: 100px;
         margin: auto;
         margin-top: 15px;
 
     }
     .box{
-        width: 70px;
-        height: 83px;
-        background: #ff5656;
+        width: 200px;
+        background: #9c9c9c;
         margin: 5px;
-        font-size: 10px;
         text-align: center;
         border-radius: 5px;
+    }
+    .box:hover{
+        background: #2473ac;
     }
     .upload{
         width: 53px;

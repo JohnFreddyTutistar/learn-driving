@@ -41,7 +41,7 @@ export default {
         margin: 60px;
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
-        text-shadow: 1px 3px 3px #000;
+        text-shadow: 1px 1px 1px #000; 
         text-align: center;
     }
     .map-ubication{
