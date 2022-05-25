@@ -5,8 +5,8 @@
           
           <div class="img-container">
               <img src="../assets/user.png" alt="">
-              <h1>Freddie Mercury</h1>
-              <h4>Aprendiz</h4>
+              <h1>Juan Casanova</h1>
+              <h4>Licencia completa</h4>
               <div class="skills" id="skills">
             <div class="max_width">
                 <h2 class="tittle"></h2>
@@ -14,7 +14,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>Barra de progreso</span>
-                            <span>20%</span>
+                            <span>95%</span>
                         </div>
                     <div class="line html"></div>
                  </div>
@@ -66,7 +66,7 @@
 
 <script>
 export default {
-    name: "user"
+    name: "user2"
 }
 </script>
 
@@ -193,7 +193,7 @@ export default {
     background: #2874A6;
 }
 .skills-content .html::before{
-    width: 20%;
+    width: 95%;
 }
 
 </style>

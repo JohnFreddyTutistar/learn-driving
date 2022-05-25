@@ -15,6 +15,27 @@
                 <img class="img1" src="../assets/volante.png" alt="">
             </div> 
         </div>
+        <div class="container-father">
+            <div class="image-container">
+                <img class="img2" src="../assets/licencia.jpg" alt="" >
+            </div> 
+            <div class="child-container">
+                <h2>Etapas de aprendizaje</h2><br>
+                <div class="info-up">
+                    <h4 class="title-info">Aprendiz</h4>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rem architecto quos neque quas quod ratione. 
+                </div>
+                <div class="info-up">
+                    <h4 class="title-info">Restringido</h4>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rem architecto quos neque quas quod ratione. 
+                </div>  
+                <div class="info-up">
+                    <h4 class="title-info">Completo</h4>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rem architecto quos neque quas quod ratione. 
+                </div>    
+            </div>
+            
+        </div>
         <div class="title-two">
             <h3>¿QUE VEHÍCULO DESEAS CONDUCIR?</h3>
             
@@ -45,7 +66,7 @@ export default {
         width: 70%;
         margin: auto;
         background-color: #fff;
-        height: 2300px;
+        height: 2650px;
     }
     .title-two{
         display: flex;
@@ -62,7 +83,10 @@ export default {
     }
     img{
         margin: auto;
-        width: 85%;
+        width: 70%;
+    }
+    .img2{
+        width: 500px;
     }
     h3{
         margin: auto;
@@ -94,7 +118,7 @@ export default {
         margin: auto;
     }
     .info-up{
-        margin-bottom: 25px;
+        margin-bottom: 10px;
         position: relative;
         color: #000;
         font-family: 'Montserrat', sans-serif;
@@ -105,7 +129,7 @@ export default {
     .title-info{
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
-        padding-bottom: 19px;
+        padding-bottom: 10px;
         color: #ff5858;
     } 
     
