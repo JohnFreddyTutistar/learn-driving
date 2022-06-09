@@ -66,7 +66,7 @@ export default {
         width: 70%;
         margin: auto;
         background-color: #fff;
-        height: 2650px;
+        height: 2800px;
     }
     .title-two{
         display: flex;
